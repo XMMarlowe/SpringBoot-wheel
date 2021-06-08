@@ -34,7 +34,7 @@ public class SwaggerConfig {
                 .groupName("Marlowe")
                 // enable是否启动Swagger，如果为false，则swagger不能在浏览器中访问
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.marlowe.music.controller"))
+                .apis(RequestHandlerSelectors.basePackage("com.marlowe.whell.controller"))
                 .build();
     }
 
